@@ -5,9 +5,7 @@ cask "x-lossless-decoder" do
   url "https://tmkk.undo.jp/xld/xld-#{version}.dmg"
   name "X Lossless Decoder"
   homepage "https://tmkk.undo.jp/xld/index_e.html"
-
-  auto_updates true
-
+  
   app "XLD.app"
   binary "CLI/xld"
 
