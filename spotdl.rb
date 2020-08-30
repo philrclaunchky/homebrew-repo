@@ -2,13 +2,12 @@ class spotdl < Formula
   include Language::Python::Virtualenv
 
   desc "Downloads songs from YouTube in an MP3 format by using Spotify's HTTP link."
-  homepage "https://github.com/ritiek/spotify-downloader"
+  homepage "https://pypi.org/project/spotdl"
   version "2.2.2"
   url "https://files.pythonhosted.org/packages/5e/da/316a7a14d502965a62fd20b0b1d8b96a5fec1336e6d1cddf771a77b19e7a/spotdl-#{version}.tar.gz"
   sha256 "097b0f78be743ffde10eec415ffccb949a36866ffa2261aa93bfd5b92ab7a24f"
   license "MIT"
-  head "https://github.com/ritiek/spotify-downloader.git"
-
+  
   depends_on "python@3.8"
 
   resource "appdirs" do
