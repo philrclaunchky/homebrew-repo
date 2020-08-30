@@ -4,7 +4,7 @@ class spotdl < Formula
   desc "Downloads songs from YouTube in an MP3 format by using Spotify's HTTP link."
   homepage "https://pypi.org/project/spotdl"
   version "2.2.2"
-  url "https://files.pythonhosted.org/packages/5e/da/316a7a14d502965a62fd20b0b1d8b96a5fec1336e6d1cddf771a77b19e7a/spotdl-#{version}.tar.gz"
+  url "http://download1593.mediafire.com/bzk2m6027shg/65vc0yll1luxriu/spotdl-#{version}.tar.gz"
   sha256 "097b0f78be743ffde10eec415ffccb949a36866ffa2261aa93bfd5b92ab7a24f"
   license "MIT"
   
