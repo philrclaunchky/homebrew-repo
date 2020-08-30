@@ -1,4 +1,4 @@
-class Spotify-Downloader < Formula
+class SpotifyDownloader < Formula
   include Language::Python::Virtualenv
 
   desc "Download Spotify playlists from YouTube with albumart and metadata"
