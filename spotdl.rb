@@ -128,11 +128,4 @@ class spotdl < Formula
   def install
     virtualenv_install_with_resources
   end
-
-  test do
-    system "#{bin}/spotdl", "--song alan walker fade"
-    assert_predicate testpath/"Alan Walker - Faded.mp3", :exist?
-    system "#{bin}/spotdl", "--song kodaline - saving grace"
-    assert_predicate testpath/"Kodaline - Saving Grace.mp3", :exist?
-  end
 end
