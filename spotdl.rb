@@ -1,4 +1,4 @@
-class Spotify-Downloader < Formula
+class spotdl < Formula
   include Language::Python::Virtualenv
 
   desc "Downloads songs from YouTube in an MP3 format by using Spotify's HTTP link."
