@@ -5,7 +5,7 @@ class Spotify-Downloader < Formula
   homepage "https://github.com/ritiek/spotify-downloader"
   url "https://github.com/ritiek/spotify-downloader/archive/v2.2.2.tar.gz"
   version "2.2.2"
-  sha256 "3252f52780f280ba18818d40cda1c89bdb99ee33d7911320ec2ce4c374df2d6b"
+  sha256 "847b4c2e34bfa1eedb34babdd3937ba8ae375429ed298a35e98a9c2240c6574f"
   license "MIT"
   head "https://github.com/ritiek/spotify-downloader.git"
 
